@@ -1,0 +1,375 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+7.7.14
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.10.
+
+\series default
+ Let 
+\begin_inset Formula $x\in Z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $5x-7$
+\end_inset
+
+ is even, then 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.10 Proof.
+
+\series default
+ Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ is even.
+ Then 
+\begin_inset Formula $x=2c$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therfore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $5x-7=5\left(2c\right)-7=10c-7=10c-8+1=2\left(5c-4\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $5c-4$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $5x-7$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.11.
+
+\series default
+ Let 
+\begin_inset Formula $x\in Z$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $11x-7$
+\end_inset
+
+ is even if and only if 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.11 Proof.
+
+\series default
+ We have two implications to prove:
+\end_layout
+
+\begin_layout Standard
+1.
+ If 
+\begin_inset Formula $11x-7$
+\end_inset
+
+ is even, then 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd
+\end_layout
+
+\begin_layout Standard
+2.
+ If 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd, then 
+\begin_inset Formula $11x-7$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+We start with a proof by contrapositive for implication 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ is even.
+ Then 
+\begin_inset Formula $x=2a$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Therfore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $11x-7=11\left(2a\right)-7=22a-7=22a-8+1=2\left(11a-4\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $11a-4$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $11x-7$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+Next, we complete a direct proof of implication 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $x=2r+1$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $11x-7=11\left(2r+1\right)-7=22r+4=2\left(11r+2\right)$
+\end_inset
+
+
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $11r+2$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $11x-7$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.11.
+
+\series default
+ Let 
+\begin_inset Formula $x\in Z$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is even if and only if 
+\begin_inset Formula $x$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ is even.
+ Then 
+\begin_inset Formula $x=2a$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{2}=\left(2a\right)^{2}=4a^{2}=2\left(2a^{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\end_layout
+
+\begin_layout Standard
+Now for the converse, assume 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $x=2a+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for some integer 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Therefore: 
+\begin_inset Formula $x^{2}=\left(2a+1\right)\left(2a+1\right)=4a^{2}+4a+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\left(2a^{2}+2a\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2a^{2}+2a$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is odd.
+\end_layout
+
+\end_body
+\end_document
