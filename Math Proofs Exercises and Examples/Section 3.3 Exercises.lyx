@@ -62,6 +62,12 @@
 \begin_layout Standard
 
 \series bold
+7.9.14
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 3.17.
 
 \series default
@@ -201,18 +207,452 @@ Since
 \end_inset
 
 .
- Use a lemma to prove that 
-\begin_inset Formula $5x-11$
+ Use a lemma to prove that if 
+\begin_inset Formula $7x+4$
 \end_inset
 
- is even if and only if
+ is even, then 
+\begin_inset Formula $3x-11$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Lemma
+\series default
+ If 
+\begin_inset Formula $7x+4$
+\end_inset
+
+ is even, then 
 \begin_inset Formula $x$
 \end_inset
 
+ is even.
+\end_layout
+
+\begin_layout Standard
+Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ is even.
+ Then 
+\begin_inset Formula $x=2k$
+\end_inset
+
+ with 
+\begin_inset Formula $k\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $7x+4=7\left(2k\right)+4=14k+4=2\left(7k+2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $7k+2$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $7x+4$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof of Result
+\series default
+ Assume 
+\begin_inset Formula $7x+4$
+\end_inset
+
+ is even.
+ By the lemma, 
+\begin_inset Formula $x$
+\end_inset
+
+ is even, so
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x=2a$
+\end_inset
+
+ with 
+\begin_inset Formula $a\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $3\left(2a\right)-11=6a-11=6a-12+1=2\left(3a-6\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $3a-6$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $3x-11$
+\end_inset
+
  is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.21.
+
+\series default
+ Let 
+\begin_inset Formula $n\in Z$
+\end_inset
+
+.
+ Prove that 
+\begin_inset Formula $\left(n+1\right)^{2}-1$
+\end_inset
+
+ is even if and only if 
+\begin_inset Formula $n$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+There are two implications to prove in this biconditional:
+\end_layout
+
+\begin_layout Standard
+1.
+ If 
+\begin_inset Formula $\left(n+1\right)^{2}-1$
+\end_inset
+
+ is even, then 
+\begin_inset Formula $n$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+2.
+ If 
+\begin_inset Formula $n$
+\end_inset
+
+ is even, then 
+\begin_inset Formula $\left(n+1\right)^{2}-1$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof (1)
+\series default
+ Assume 
+\begin_inset Formula $n$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $n=2k+1$
+\end_inset
+
+ with 
+\begin_inset Formula $k\in Z$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(n+1\right)^{2}-1=\left(2k+2\right)^{2}-1=\left(4k^{2}+8k+4\right)-1=4k^{2}+8k+2+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\left(2k^{2}+8k+1\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2k^{2}+8k+1$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $\left(n+1\right)^{2}-1$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof (2) 
+\series default
+Assume 
+\begin_inset Formula $n$
+\end_inset
+
+ is even.
+ Then 
+\begin_inset Formula $n=2c$
+\end_inset
+
+ with 
+\begin_inset Formula $c\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(n+1\right)^{2}-1=\left(2c+1\right)\left(2c+1\right)-1=4c^{2}+4c=2\left(2c^{2}+2c\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2c^{2}+2c$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $\left(n+1\right)^{2}-1$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.23.
+
+\series default
+ Let 
+\begin_inset Formula $A=\left\{ 0,1,2\right\} $
+\end_inset
+
+ and 
+\begin_inset Formula $B=\left\{ 4,5,6\right\} $
+\end_inset
+
+ be subsets of 
+\begin_inset Formula $S=\left\{ 0,1,...,6\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $n\in S$
+\end_inset
+
+.
+ Prove that if 
+\begin_inset Formula $\frac{n\left(n-1\right)\left(n-2\right)}{6}$
+\end_inset
+
+ is even , then 
+\begin_inset Formula $n\in A\cup B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ We start with assuming the 
+\begin_inset Formula $n\notin A\cup B$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $n=3$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{3\left(2\right)\left(1\right)}{6}=\frac{6}{6}=1$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.25.
+
+\series default
+ Let 
+\begin_inset Formula $\left\{ A,B\right\} $
+\end_inset
+
+ be a partition of the set of 
+\begin_inset Formula $S=\left\{ 1,2,...,7\right\} $
+\end_inset
+
+, where 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A=\left\{ 1,4,5\right\} $
+\end_inset
+
+ and 
+\begin_inset Formula $B=\left\{ 2,3,6,7\right\} $
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $n\in S$
+\end_inset
+
+.
+ Prove that if 
+\begin_inset Formula $\frac{n^{2}+3n-4}{2}$
+\end_inset
+
+ is even,
+\end_layout
+
+\begin_layout Standard
+then 
+\begin_inset Formula $n\in A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Assume 
+\begin_inset Formula $n\notin A$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $n=\left\{ 2,3,6,7\right\} $
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $n=2$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{n^{2}+3n-4}{2}$
+\end_inset
+
+ 
+\begin_inset Formula $=\frac{4+6-4}{2}=3$
+\end_inset
+
+ is odd,
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $n=3$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{n^{2}+3n-4}{2}=\frac{9+9-4}{2}=7$
+\end_inset
+
+ is odd, 
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $n=6$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{n^{2}+3n-4}{2}=\frac{50}{2}=25$
+\end_inset
+
+ is odd, 
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $n=7$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{n^{2}+3n-4}{2}=\frac{66}{2}=33$
+\end_inset
+
+ is odd.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{}{}$
+\end_inset
+
+
 \end_layout
 
 \end_body

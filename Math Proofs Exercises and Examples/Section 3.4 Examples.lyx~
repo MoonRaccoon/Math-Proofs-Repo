@@ -62,105 +62,52 @@
 \begin_layout Standard
 
 \series bold
-3.17.
+3.15.
 
 \series default
- Let 
+ If 
 \begin_inset Formula $n\in Z$
 \end_inset
 
-.
- Prove that if 
-\begin_inset Formula $15n$
+, then 
+\begin_inset Formula $n^{2}+3n+5$
 \end_inset
 
- is even, then 
-\begin_inset Formula $9n$
-\end_inset
-
- is even.
-\end_layout
-
-\begin_layout Standard
-First we prove a lemma using proof by contrapositive:
+ is an odd integer.
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Lemma
+Proof 
+\begin_inset Formula $Case$
+\end_inset
+
+ 
+\begin_inset Formula $1.$
+\end_inset
+
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ 
+\begin_inset Formula $is$
+\end_inset
+
+ 
+\begin_inset Formula $even$
+\end_inset
+
+
 \series default
- If 
-\begin_inset Formula $15n$
-\end_inset
-
- is even, then 
-\begin_inset Formula $n$
-\end_inset
-
- is even.
-\end_layout
-
-\begin_layout Standard
-Assume 
-\begin_inset Formula $n$
-\end_inset
-
- is odd.
+.
  Then 
-\begin_inset Formula $n=2k+1$
+\begin_inset Formula $n=2b$
 \end_inset
 
- with 
-\begin_inset Formula $k\in Z$
-\end_inset
-
-.
- Therefore:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $15n=15\left(2k+1\right)=30k+15=30k+14+1=2\left(15k+7\right)+1$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Since 
-\begin_inset Formula $15k+7$
-\end_inset
-
- is an integer, 
-\begin_inset Formula $15n$
-\end_inset
-
- is odd.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Proof of result
-\series default
- Assume 
-\begin_inset Formula $15n$
-\end_inset
-
- is even.
- By the lemma, 
-\begin_inset Formula $n$
-\end_inset
-
- is even, so 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $n=2k$
-\end_inset
-
- for 
-\begin_inset Formula $k\in Z$
+ for some 
+\begin_inset Formula $b\in Z$
 \end_inset
 
 .
@@ -168,7 +115,7 @@ Proof of result
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $9n=9\left(2k\right)=18k=2\left(9k\right)$
+\begin_inset Formula $n^{2}+3n+5=4b^{2}+6b+5=4b^{2}+6b+4+1=2\left(2b^{2}+3b+4\right)+1$
 \end_inset
 
 
@@ -176,36 +123,84 @@ Proof of result
 
 \begin_layout Standard
 Since 
-\begin_inset Formula $9k$
+\begin_inset Formula $2b^{2}+3b+4$
 \end_inset
 
  is an integer, 
-\begin_inset Formula $9n$
+\begin_inset Formula $n^{2}+3n+5$
 \end_inset
 
- is even.
-\begin_inset Formula $ $
+ is odd.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Case$
+\end_inset
+
+ 
+\begin_inset Formula $2.$
+\end_inset
+
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ 
+\begin_inset Formula $is$
+\end_inset
+
+ 
+\begin_inset Formula $odd.$
+\end_inset
+
+ Then 
+\begin_inset Formula $n=2c+1$
+\end_inset
+
+ for some 
+\begin_inset Formula $c\in Z$
+\end_inset
+
+.
+ So,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{2}+3n+5=\left(2c+1\right)\left(2c+1\right)+6c+8=4c^{2}+10c+9$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $=4c^{2}+10c+8+1=2\left(2c^{2}+5c+4\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2c^{2}+5c+4$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $n^{2}+3n+5$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
 
 \series bold
-3.19.
+3.16.
 
 \series default
- Let 
-\begin_inset Formula $x\in Z$
-\end_inset
-
-.
- Use a lemma to prove that 
-\begin_inset Formula $5x-11$
-\end_inset
-
-
+ 
 \end_layout
 
 \end_body
