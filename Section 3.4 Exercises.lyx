@@ -71,7 +71,15 @@
 3.27.
 
 \series default
- 
+ Prove that of 
+\begin_inset Formula $n\in Z$
+\end_inset
+
+, then 
+\begin_inset Formula $n^{3}-n$
+\end_inset
+
+ is even.
 \end_layout
 
 \end_body
