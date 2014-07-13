@@ -62,6 +62,12 @@
 \begin_layout Standard
 
 \series bold
+7.12.14
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 3.15.
 
 \series default
@@ -200,7 +206,378 @@ Since
 3.16.
 
 \series default
+ Let 
+\begin_inset Formula $x,y\in Z$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are of the same parity if and only
+\end_layout
+
+\begin_layout Standard
+if 
+\begin_inset Formula $x+y$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are of the same parity.
+ Now we have two cases.
+\end_layout
+
+\begin_layout Standard
+Case 1.
+
+\series bold
  
+\series default
+
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are even.
+ Then 
+\begin_inset Formula $x=2a$
+\end_inset
+
+ and 
+\begin_inset Formula $y=2b$
+\end_inset
+
+ for some integers 
+\begin_inset Formula $a$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+and 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x+y=2a+2b=2\left(a+b\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $a+b$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $x+y$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+Case 2.
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are odd.
+ Then 
+\begin_inset Formula $x=2a+1$
+\end_inset
+
+ and 
+\begin_inset Formula $y=2b+1$
+\end_inset
+
+ for 
+\end_layout
+
+\begin_layout Standard
+some integers 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x+y=2a+1+2b+1=2a+2b+2=2\left(a+b+1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $a+b+1$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $x+y$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+For the converse, assume 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are of opposite parity.
+ We have to cases
+\end_layout
+
+\begin_layout Standard
+again:
+\end_layout
+
+\begin_layout Standard
+Case 1.
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ is even and 
+\begin_inset Formula $y$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $x=2a$
+\end_inset
+
+ and 
+\begin_inset Formula $y=2b+1$
+\end_inset
+
+, where 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a,b\in Z$
+\end_inset
+
+.
+ Then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x+y=2a+2b+1=2\left(a+b\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $a+b$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $ $
+\end_inset
+
+
+\begin_inset Formula $x+y$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+Case 2.
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd and 
+\begin_inset Formula $y$
+\end_inset
+
+ is even.
+ The proof is similar to the proof of
+\end_layout
+
+\begin_layout Standard
+the preceding case and is therefore omitted.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.17.
+
+\series default
+ Let 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ be integers.
+ Then 
+\begin_inset Formula $ab$
+\end_inset
+
+ is even if and only if 
+\begin_inset Formula $a$
+\end_inset
+
+ is even
+\end_layout
+
+\begin_layout Standard
+or 
+\begin_inset Formula $b$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ First, assume that 
+\begin_inset Formula $a$
+\end_inset
+
+ is even or 
+\begin_inset Formula $b$
+\end_inset
+
+ is even.
+ WLOG, let 
+\begin_inset Formula $a$
+\end_inset
+
+ be even.
+ Then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=2x$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ Thus 
+\begin_inset Formula $ab=\left(2x\right)b=2\left(xb\right)$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $xb$
+\end_inset
+
+ is an 
+\end_layout
+
+\begin_layout Standard
+integer, 
+\begin_inset Formula $ab$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+For the converse, assume that 
+\begin_inset Formula $a$
+\end_inset
+
+ is odd and 
+\begin_inset Formula $b$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $a=2x+1$
+\end_inset
+
+ and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b=2y+1$
+\end_inset
+
+, where 
+\begin_inset Formula $x,y\in Z$
+\end_inset
+
+.
+ Hence
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ab=\left(2x+1\right)\left(2y+1\right)=4xy+2x+2y+1=2\left(2xy+x+y\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2xy+x+y$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $ab$
+\end_inset
+
+ is odd.
 \end_layout
 
 \end_body

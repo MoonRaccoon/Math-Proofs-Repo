@@ -62,7 +62,7 @@
 \begin_layout Standard
 
 \series bold
-7.12.14
+7.13.14
 \end_layout
 
 \begin_layout Standard
@@ -71,7 +71,7 @@
 3.27.
 
 \series default
- Prove that of 
+ Prove that if 
 \begin_inset Formula $n\in Z$
 \end_inset
 
@@ -80,6 +80,266 @@
 \end_inset
 
  is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Case 1.
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ is even.
+ Then 
+\begin_inset Formula $n=2h$
+\end_inset
+
+ for some 
+\begin_inset Formula $h\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{3}-n=\left(2h\right)^{2}-2h=4h^{2}-2h=2\left(2h^{2}-1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2h^{2}-1$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $n^{3}-n$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+Case 2.
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $n=2p+1$
+\end_inset
+
+ for some 
+\begin_inset Formula $p\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{3}-n=\left(2p+1\right)^{2}-\left(2p+1\right)=\left(4p^{2}+4p+1\right)-2p-1=4p^{2}+2p=2\left(p^{2}+p\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $p^{2}+p$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $n^{3}-n$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.29.
+
+\series default
+ Apparently 
+\series bold
+3.28.
+
+\series default
+ Proves that if 
+\begin_inset Formula $ab$
+\end_inset
+
+ is odd, then 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ are odd.
+ This, combined 
+\end_layout
+
+\begin_layout Standard
+with theorem 3.12, shows that 
+\begin_inset Formula $a^{2}+b^{2}$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.31.
+
+\series default
+ Let 
+\begin_inset Formula $a,b\in Z$
+\end_inset
+
+.
+ Prove that if 
+\begin_inset Formula $a+b$
+\end_inset
+
+ and 
+\begin_inset Formula $ab$
+\end_inset
+
+ are of the same parity, then 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+are even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Assume 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ are odd.
+ Then 
+\begin_inset Formula $a=2k+1$
+\end_inset
+
+ for some 
+\begin_inset Formula $k\in Z$
+\end_inset
+
+, and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b=2d+1$
+\end_inset
+
+ for some 
+\begin_inset Formula $d\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+b=2k+1+2d+1=2k+2d+2=2\left(k+d+2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $k+d+2$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $a+b$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+Next, we find the parity of 
+\begin_inset Formula $ab$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ab=\left(2k+1\right)\left(2d+1\right)=\left(4kd+2k+2d+1\right)=2\left(2kd+k+d\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $2kd+k+d$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $ab$
+\end_inset
+
+ is odd.
+\end_layout
+
+\begin_layout Standard
+We can now see that 
+\begin_inset Formula $a+b$
+\end_inset
+
+ is even and 
+\begin_inset Formula $ab$
+\end_inset
+
+ is odd, so 
+\begin_inset Formula $a+b$
+\end_inset
+
+ and 
+\begin_inset Formula $ab$
+\end_inset
+
+ are of 
+\end_layout
+
+\begin_layout Standard
+opposite parity.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
