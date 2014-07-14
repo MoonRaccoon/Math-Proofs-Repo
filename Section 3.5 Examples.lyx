@@ -1,0 +1,242 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+7.14.14
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.18.
+
+\series default
+ Given below is the proof of a result.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof 
+\series default
+Assume that n is an odd integer.
+ Then 
+\begin_inset Formula $n=2k+1$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Then 
+\begin_inset Formula $3n-5=3\left(2k+1\right)-5=6k+3-5=6k-2=2\left(3k-1\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Since 3k − 1 is an integer, 3n − 5 is even.
+ Which of the following is proved above?
+\end_layout
+
+\begin_layout Standard
+(1) 3n−5is an even integer.
+\end_layout
+
+\begin_layout Standard
+(2) If n is an odd integer, then 3n − 5 is an even integer.
+ 
+\end_layout
+
+\begin_layout Standard
+(3) Let n be an integer.
+ If 3n − 5 is an even integer, then n is an odd integer.
+ 
+\end_layout
+
+\begin_layout Standard
+(4) Let n be an integer.
+ If 3n − 5 is an odd integer, then n is an even integer.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Answer
+\series default
+ The correct answers are 
+\begin_inset Formula $\left(4\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+.
+ The given proof is a direct proof
+\end_layout
+
+\begin_layout Standard
+of 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ and a proof by contrapositive of 
+\begin_inset Formula $\left(4\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.19.
+
+\series default
+ Evaluate the proposed proof of the following result.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result
+\series default
+ If 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are integers of the same parity, then 
+\begin_inset Formula $x-y$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof 
+\series default
+Let x and y be two integers of the same parity.
+ We consider two cases, 
+\end_layout
+
+\begin_layout Standard
+according to whether x and y are both even or are both odd.
+\end_layout
+
+\begin_layout Standard
+Case 1.
+ x and y are both even.
+ Let x = 6 and y = 2, which are both even.
+\end_layout
+
+\begin_layout Standard
+Then x − y = 4, which is even.
+ 
+\end_layout
+
+\begin_layout Standard
+Case 2.
+ x and y are both odd.
+ Let x = 7 and y = 1, which are both odd.
+\end_layout
+
+\begin_layout Standard
+Then x − y = 6, which is even.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof Eval
+\series default
+ This proof is stated correctly, except that 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ cannot represent specific
+\end_layout
+
+\begin_layout Standard
+even integers.
+\end_layout
+
+\end_body
+\end_document
