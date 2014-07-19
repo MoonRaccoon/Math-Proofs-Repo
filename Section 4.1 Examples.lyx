@@ -1,0 +1,678 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+7.16.14
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.1.
+
+\series default
+ Let 
+\begin_inset Formula $a,b$
+\end_inset
+
+ and 
+\begin_inset Formula $c$
+\end_inset
+
+ be integers with 
+\begin_inset Formula $a\neq0$
+\end_inset
+
+ and 
+\begin_inset Formula $b\neq0$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $a\mid b$
+\end_inset
+
+ and 
+\begin_inset Formula $b\mid c$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+then 
+\begin_inset Formula $a\mid c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Assume 
+\begin_inset Formula $a\mid b$
+\end_inset
+
+ and 
+\begin_inset Formula $b\mid c$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $b=ax$
+\end_inset
+
+ and 
+\begin_inset Formula $c=by$
+\end_inset
+
+, where 
+\begin_inset Formula $x,y\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c=by=\left(ax\right)y=a\left(xy\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $xy$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $a\mid c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.2.
+
+\series default
+ Let 
+\begin_inset Formula $a,b,c,$
+\end_inset
+
+ and 
+\begin_inset Formula $d$
+\end_inset
+
+ be integers with 
+\begin_inset Formula $a\neq0$
+\end_inset
+
+ and 
+\begin_inset Formula $b\neq0$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $a\mid c$
+\end_inset
+
+ and 
+\begin_inset Formula $b\mid d$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+then 
+\begin_inset Formula $ab\mid cd$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof 
+\series default
+Assume 
+\begin_inset Formula $a\mid c$
+\end_inset
+
+ and 
+\begin_inset Formula $b\mid d$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $c=ax$
+\end_inset
+
+ and 
+\begin_inset Formula $d=by$
+\end_inset
+
+ with 
+\begin_inset Formula $x,y\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cd=abxy=ab\left(xy\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $xy$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $ab\mid cd$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.3.
+ 
+\series default
+Let 
+\begin_inset Formula $a,b,c,x,y\in Z$
+\end_inset
+
+, where 
+\begin_inset Formula $a\neq0$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $a\mid b$
+\end_inset
+
+ and 
+\begin_inset Formula $a\mid c$
+\end_inset
+
+, then 
+\begin_inset Formula $a\mid\left(bx+cy\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof 
+\series default
+Assume 
+\begin_inset Formula $a\mid b$
+\end_inset
+
+ and 
+\begin_inset Formula $a\mid c$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $b=ar$
+\end_inset
+
+ and 
+\begin_inset Formula $c=au$
+\end_inset
+
+ where 
+\begin_inset Formula $r,u\in Z$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $bx+cy=arx+auy=a\left(rx+uy\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $rx+uy$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $a\mid\left(bx+cy\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.4.
+
+\series default
+ Let 
+\begin_inset Formula $x\in Z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $2\mid\left(x^{2}-1\right),$
+\end_inset
+
+ then 
+\begin_inset Formula $4\mid\left(x^{2}-1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof 
+\series default
+Assume 
+\begin_inset Formula $2\mid\left(x^{2}-1\right)$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x^{2}-1=2a$
+\end_inset
+
+ with 
+\begin_inset Formula $a\in Z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+So, 
+\begin_inset Formula $x^{2}=2a+1$
+\end_inset
+
+, which shows that 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is odd.
+ By theorem 3.12 
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is odd if and only if 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd), this also means that 
+\begin_inset Formula $x$
+\end_inset
+
+ is odd, and therefore 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x=2k+1$
+\end_inset
+
+ for some 
+\begin_inset Formula $k\in Z$
+\end_inset
+
+.
+ Thus,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{2}-1=\left(2k+1\right)\left(2k+1\right)-1=4k^{2}+4k=4\left(k^{2}+k\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.5.
+
+\series default
+ Let 
+\begin_inset Formula $x,y\in Z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $3\nmid xy$
+\end_inset
+
+, then 
+\begin_inset Formula $3\nmid x$
+\end_inset
+
+ and 
+\begin_inset Formula $3\nmid y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Assume 
+\begin_inset Formula $3\mid x$
+\end_inset
+
+ or 
+\begin_inset Formula $3\mid y$
+\end_inset
+
+.
+ WLOG, assume 
+\begin_inset Formula $3\mid y$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $y=3a$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $xy=3ax=3\left(ax\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $ax$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $3\mid xy$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.6.
+
+\series default
+ Let 
+\begin_inset Formula $x\in Z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $3\nmid\left(x^{2}-1\right)$
+\end_inset
+
+, then 
+\begin_inset Formula $3\mid x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof
+\series default
+ Assume 
+\begin_inset Formula $3\nmid x$
+\end_inset
+
+.
+ Then we have two cases:
+\end_layout
+
+\begin_layout Standard
+Case 1.
+ 
+\begin_inset Formula $x=3q+1$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $q$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{2}-1=\left(3q+1\right)\left(3q+1\right)-1=9q^{2}+6q=3\left(3q^{2}+2q\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $3q^{2}+2q$
+\end_inset
+
+ is an integer, 
+\begin_inset Formula $3\mid\left(x^{2}-1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Case 2.
+ 
+\begin_inset Formula $x=3q+2$
+\end_inset
+
+ for some integer 
+\begin_inset Formula $q$
+\end_inset
+
+.
+ Therefore,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{2}-1=\left(3q+2\right)\left(3q+2\right)-1=9q^{2}+12q+3=3\left(3q^{2}+4q+1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $3q^{2}+4q+1$
+\end_inset
+
+, 
+\begin_inset Formula $3\mid\left(x^{2}-1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Result 4.7.
+
+\series default
+ Let 
+\begin_inset Formula $x,y\in Z$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $4\mid\left(x^{2}-y^{2}\right)$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+are of the same parity.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Proof 
+\series default
+Assume 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are of opposite parity.
+ Thus, there are two cases
+\end_layout
+
+\begin_layout Standard
+to consider:
+\end_layout
+
+\begin_layout Standard
+Case 1.
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ is even and 
+\begin_inset Formula $y$
+\end_inset
+
+ is odd.
+ Then 
+\begin_inset Formula $x=2c$
+\end_inset
+
+ and 
+\begin_inset Formula $y=2b+1$
+\end_inset
+
+ with 
+\begin_inset Formula $c,b\in Z$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
